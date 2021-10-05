@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 14px/1 Arial, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  background: white;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  padding: 8px 16px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 3px double #ccc;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td {
+  padding: 8px 8px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pane {
+  background: #eee;
+}
+.pane-vScroll {
+  /*overflow-y: auto;*/
+  overflow-x: auto;
+  width:100%;
+}
+
+
+tr:nth-child(even){background-color: #eff5f1}
+
+
+.alg_left{
+	text-align:left;
+}
+
+.alg_right{
+	text-align:right;
+}
+
+
+
+
+

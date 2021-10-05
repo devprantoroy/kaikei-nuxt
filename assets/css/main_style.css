@@ -1,0 +1,404 @@
+select {text-align-last:center; }
+
+.ime-on{
+	ime-mode: active;
+}
+.ime-off{
+	ime-mode: disabled;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    color: #5A5A5A !important;
+    font-weight: 500 !important;
+    padding: 15px 0px !important;
+}
+
+.nav_btn{
+	min-height: 54px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.btn_yellow{
+	background-color: #ffc000;
+	border: 1px solid #ffc000;
+	color: #000;
+}
+
+.btn_yellow:hover{
+	background-color: #e2ab03;
+	border: 1px solid #e2ab03;
+	color: #000;
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.tranjection>tbody>tr:nth-child(even) {
+  background: #F0F0F0 !important;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>td{
+    border: 1px solid #000 !important;
+    padding: 1px 3px 1px 5px !important;
+    font-size: 16px !important;
+}
+
+.main_input{
+	width: 100%;
+	outline: none;
+	border: none;
+    color: #000; 
+}
+
+.main_input:focus{
+	background: #f5cdcd;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    padding: 5px;
+    bottom: 15px;
+    right: 15px;
+    /* font-size: 17px; */
+    color: #000;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 1;
+    /* border: 2px solid #68dc5a; */
+    border : 4px solid #2d2b2b;
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.popupLeft {
+    display: none;
+    position: fixed;
+    padding: 5px;
+    bottom: 15px;
+    left: 15px;
+    /* right: 15px; */
+    /* font-size: 17px; */
+    color: #000;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 1;
+    /* border: 2px solid #68dc5a; */
+    border : 4px solid #2d2b2b;
+    box-shadow: 5px 10px 5px #888888;
+}
+
+
+.edit_tran {
+    visibility: hidden;
+    cursor: pointer;
+    color: #0f34ff;
+}
+#transaction_list:hover .edit_tran {
+  visibility: visible;
+  opacity: 1;
+}
+
+#pb_tran_list:hover .edit_tran {
+  visibility: visible;
+  opacity: 1;
+}
+
+.edit_tran_date{
+    visibility: visible !important;
+    cursor: pointer !important;
+    color: #000 !important;
+}
+
+#transaction_list:hover .edit_tran_date {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
+
+
+.modal-footer {
+    padding: 0px 15px 15px 15px !important;
+    text-align: center !important;
+    border-top: none !important;
+}
+
+.modal-header {
+    padding: 5px 15px !important;
+    border-bottom: none !important;
+}
+
+.modal-backdrop {
+   background-color: transparent !important;
+}
+
+.modal-small {
+    width: 400px !important;
+    position: fixed !important;
+    left: auto !important;
+    right: 14px !important;
+    top: auto !important;
+    bottom: 0px !important;
+}
+
+.modal-content{
+    background: #fcffd6 !important;
+}
+
+.date_filter{
+    width: 85px;
+    height: 20px;
+    text-align: center;
+    background: #dff0d8;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+
+.scroll-top{
+    color: #d9534e;
+    position: fixed;
+    top: 315px;
+    right: 0px;
+}
+.scroll-down{
+    color: #d9534e;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
+.fa-2x {
+    font-size: 18px !important;
+}
+
+.numberCircle{
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+}
+
+.deposit_flg{
+    background: #B8DDF1 !important;
+}
+
+.btn-lft-mrg{
+    margin-left: 16px !important;
+}
+
+/* client page ------------------------------------------------ */
+.clinet_btn {
+    border-radius: 8px;
+    height: 45px;
+    margin: 0 5px 10px;
+    width: 100%;
+}
+.client_inc{
+    background: #fefefe linear-gradient(to bottom, #fefefe, #fbfaf9) repeat scroll 0 0;
+    box-shadow: 2px 2px 2px #e3c19e;
+    border: 2px solid #e3c19e;
+}
+.client_exp{
+    background: #ceeac0 none repeat scroll 0 0;
+    box-shadow: 3px 3px 3px #ceeac0;
+    color: #5a704f;
+}
+
+.client_fc{
+    background-color: #95D1AD !important;
+    box-shadow: 3px 3px 3px #ceeac0;
+}
+
+.tooltip-inner {
+    min-width: 180px;
+}
+
+.client-area{
+    background: #f5f5f5;
+    border-radius: 10px;
+    border:1px solid #dadada;
+}
+
+/* client page ------------------------------------------------ */
+
+
+
+/* Balance Sheet page ------------------------------------------------ */
+.note_btn {
+    background: #58d256;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #58d256;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1px 0 1px 0;
+}
+
+.pb_bank_list {
+    background: #58d256;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #58d256;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1px 0 1px 0;
+}
+
+.pl_forward{
+    background: #58d256;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #58d256;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 1px 0 1px 0;
+}
+
+
+/*passbook css*/
+.bank_list{
+    width: 100%;
+    padding: 5px;
+    background: #337ab7;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+.tbl_no_padding>tbody>tr>td{
+    border: 1px solid #3c618a !important;
+    padding: 2px 2px 2px 2px !important;
+}
+
+
+.bank_list_circle {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    background: #fcf8e3;
+    /* border: 2px solid #666; */
+    color: #666;
+    text-align: center;
+    font: 13px Arial, sans-serif;
+}
+
+
+
+/*Balance sheet css---------------------------- */
+.tblrowspan{
+    background: #fff;
+    width: 5px !important;
+    vertical-align: middle !important;
+}
+.ms_btn{
+        background: #58d256;
+        color: #fff;
+        width: 30%;
+        text-align: center;
+        border: 1px solid #58d256;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 1px 0 1px 0;
+}
+.unpaid-allowance{
+    display: none;
+    background: #FCFEBC !important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>thead>tr>td, .table>thead>tr>th{
+    font-size: 17px !important;
+}
+
+.bs_table>tbody>tr:nth-child(even) {
+  background: #DFF8E3;
+}
+
+div#home1 p {
+    font-size: 17px;
+}
+
+
+.removeTrans {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+
+#transaction_list:hover .removeTrans {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* #pb_transactions:hover .removeTrans {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.remove_trans {
+    visibility: hidden;
+    cursor: pointer;
+    color: #0f34ff;
+}
+
+#pb_tran_list:hover .remove_trans {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

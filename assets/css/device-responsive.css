@@ -1,0 +1,80 @@
+/* -------------- responsive media querey created   ---------/ 
+/*----------------  by:rajibnew12@gmail.com-----------------*/
+/*----------------------------------------------------------*/
+
+@media only screen and (device-width : 1920px) {
+            
+   
+}
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen
+    and (min-device-width : 980px)
+    and (max-device-width : 1280px) {
+     
+
+}        
+      
+}/*-----980/1280--------*/
+
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px) {
+            
+      
+}
+
+
+@media only screen 
+    and (max-width :800px) {
+    
+        
+    
+        
+        
+}
+
+
+/* smartphones (portait and landscape) ------------*/
+
+@media only screen and (max-device-width : 640px) {
+   
+    .nav > li {
+      padding: 0 10px;
+    }
+    
+    .col-xs-2 {
+    width: 19.600%;
+  }
+    
+    ul.nav li a {
+      
+      font-size: 15px;
+      line-height: 30px;
+}
+    
+    
+}
+
+
+
+
+/* smartphones poratait  */
+@media only screen 
+    and (max-width :360px) {
+    
+        
+        
+}
+
+
+

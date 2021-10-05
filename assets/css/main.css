@@ -1,0 +1,546 @@
+.date_edit:focus {
+    outline: none !important;
+    border-top:3px solid transparent;
+}
+
+
+.td_note_name{
+  cursor: pointer;
+  background: #A4EA71;
+  width: 100px;
+}
+
+.color_blink {
+  -webkit-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Safari 4+ */
+  -moz-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Fx 5+ */
+  -o-animation: NAME-YOUR-ANIMATION 1s infinite;  /* Opera 12+ */
+  animation: NAME-YOUR-ANIMATION 1s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%, 49% {
+    background-color: yellow;
+  }
+  50%, 100% {
+    background-color: #36b2ce;
+  }
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.container-fluid {
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+.tool_div1{
+    display: block;
+    background: #fff;
+    top: 96px;
+    right: 115px;
+    height: 65px;
+    padding: 10px;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@page {
+    margin: 30px 10px;
+    size: landscape;
+}
+
+
+@media print {
+ 
+ body{
+  padding: 0 !important;
+  margin: 0 !important;
+ }
+
+  .popup{
+    display: none !important;
+  }
+
+  table {
+      table-layout: auto !important;
+  }
+  table, tr{
+        border: 1px solid #ddd !important;
+  }
+  li{
+    display: none !important;
+  }
+
+  
+
+}
+
+/*------------- table css------------------*/
+
+h2{
+    text-align: center;
+}
+
+
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.col-xs-2{
+    width: 11%;
+}
+
+
+.btn.btn-action {
+  background: transparent none repeat scroll 0 0;
+  border-top: 1px solid #e3c19e;
+  border-right: 1px solid #e3c19e;
+  border-left: 1px solid #e3c19e;
+  border-bottom: 2px solid #e3c19e;
+  
+  border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+  height: 70px;
+  margin-bottom: 5px;
+  width: 70px;
+}
+
+.nav > li {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000 !important;
+}
+
+ul.nav {
+  border: 2px solid #ffc000;
+
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -o-border-radius: 35px;
+  float: right;
+  height: 60px;
+  z-index: 900;    
+}
+
+ul.nav li a {
+  line-height: 50px;
+}
+
+ul.navbar-nav li a {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.menu-active  {
+    background-color: #faa757;
+    color: #555;
+    overflow: hidden;
+ }
+
+
+.navbar-default {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.navbar-nav > li:hover {
+     background-color: #ffc000;
+     opacity: 0.9;
+     transition: opacity 0.5s ease-in;
+     border-radius: 48px;
+     -webkit-border-radius: 48px;
+     -moz-border-radius: 48px; 
+     -o-border-radius: 48px; 
+}
+
+.navbar-nav > li > a {
+  padding: 7px 7px;
+}
+
+
+
+
+
+
+.table{
+    width: 100%;
+    
+}
+
+.table-fixed thead {
+ width: 98.578%;
+}
+
+.table-fixed tbody {
+  height: 430px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+.tr-row{
+	background-color:#eff5f1;
+}
+
+
+.pagination.pagination-sm a {
+  margin-left: 3px;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus{
+    background-color:#a8cbb4;
+
+}
+
+.pagination-sm > li > a, .pagination-sm > li > span {
+    
+   width:40px;
+   height:40px;
+   line-height:30px;
+   box-shadow: -3px 8px 0px -2px rgba(168,203,180,0.58);
+   -moz-box-shadow: -3px 8px 0px -2px rgba(168,203,180,0.58);
+   -webkit-box-shadow: -3px 8px 0px -2px rgba(168,203,180,0.58);
+   -o-box-shadow: -3px 8px 0px -2px rgba(168,203,180,0.58);
+}
+
+.btn-bottom {
+    padding-top: 6px;
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: -17px;
+    margin-right: 33px;
+}
+
+
+.area-color1{
+  background-color: #ff0000;
+}
+.area-color2{
+  background-color: #ff9000;
+}
+.area-color3{
+  background-color: #ffe400;
+}
+.area-color4{
+  background-color: #3cff00;
+}
+.area-color5{
+  background-color:#00fff0; 
+}
+.area-color6{
+  background-color: #003cff;  
+}
+.area-color7{
+  background-color:#b400ff; 
+}
+
+.scroll-bg{
+  background-color: #ddede2;
+}
+
+/**
+* Custom CSS 02.08.2017
+*
+* Left Navigation Menu Button
+*/
+
+.ime{
+  ime-mode: active;
+}
+
+.amount {
+    height: 18px;
+    background: transparent;
+    border: 0;
+    border-style: none;
+    border-color: transparent;
+    outline: none;
+    outline-offset: 0;
+    box-shadow: none;
+    width: 100%;
+}
+
+
+.btn_demo{
+    background: #e3c19e;
+}
+
+.gray_back_color{
+  background: #eff5f1 !important;
+}
+
+.sky_back_color{
+  background: #a8cbb4 !important;
+}
+
+.alg_left{
+  text-align:left;
+}
+
+.alg_right{
+  text-align:right;
+}
+
+a:hover {
+  cursor:pointer;
+ }
+
+.acc_rec{
+  cursor: pointer;
+}
+
+.loan{
+  cursor: pointer;
+}
+
+#add_new{
+    cursor: pointer;
+}
+
+/*-----pl menu------*/
+#primary_nav_wrap
+{
+  margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+  list-style:none;
+  position:relative;
+  float:right;
+  margin:0;
+  padding:0
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  color:#333;
+  text-decoration:none;
+  font-weight:700;
+  font-size:12px;
+  line-height:32px;
+  padding:0 15px;
+  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li {
+  float: left;
+  padding: 0px 5px 0px 0px;
+  position: relative;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+  background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+  background:#f6f6f6
+}
+
+.tab-mnu{
+  width: 100%;
+  height: 42px;
+}
+
+.heragana{
+  ime-mode: active;
+}
+
+.ime_disable{
+  ime-mode: disabled;
+}
+
+
+
+
+.note_btn{
+    background: #CDECD8;
+    width: 30%;
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 3px 0 3px 0;
+}
+
+.note_btn_blank{
+    width: 30%;
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 3px 0 3px 0;
+}
+
+.input_btn{
+  background: #fff6b4;
+    width: 40px;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.notice_site{
+background: red;
+    color: #ffffff;
+    margin-left: 39%;
+    font-size: 16px;
+    width: 175px;
+    text-align: center;
+    padding: 2px;
+    margin-top: -35px;
+    margin-bottom: 2px;
+    border: 1px solid red;
+    border-radius: 9px;
+}
+
+
+.border_separator1 {
+    border-top: 4px double #044f90;
+    border-bottom: 2px solid #044f90;
+}
+
+.border_separator2 {
+    border-top: 4px double #044f90;
+    border-bottom: 4px double #044f90;
+}
+
+.close_input{
+  color: #fff;
+    background: #d9534f;
+    width: 35px;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+::-ms-clear {
+        display: none;
+    }
+
+
+
+.day_select{
+    border-top: 2px solid #9d9d9d;
+    border-left: 2px solid #9d9d9d;
+    height: 29px;
+    width: 50px;
+    border-bottom: 2px solid #eceaea;
+}
+
+.input_year{
+  border-radius: 6px;
+  height: 30px;
+  max-width: 60px;
+}
