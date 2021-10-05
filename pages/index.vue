@@ -3,7 +3,6 @@
         <div class="row">
             <div class="col-sm-6 col-md-4 col-md-offset-4">
                 <div class="account-wall">
-                    
                    <h1 class="text-center login-title">プロ・レス会計  ログイン</h1>
 
                     <img style="border: 1px solid #337ab7;" class="profile-img text-center" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
